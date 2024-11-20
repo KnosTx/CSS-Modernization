@@ -1,0 +1,17 @@
+{
+  "name": "poggit-css-modern-improvements",
+  "version": "1.0.0",
+  "description": "A simple project using CSS",
+  "scripts": {
+    "build": "postcss style.css -o style.min.css",
+    "watch": "postcss style.css -o style.min.css --watch"
+  },
+  "keywords": ["css", "postcss", "styles"],
+  "author": "KnosTx",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "autoprefixer": "^10.4.13"
+  }
+}
